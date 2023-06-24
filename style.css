@@ -1,0 +1,24 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+    border-top: solid #6C757D 7px;
+}
+th{
+    background-color: #6C757D;
+    color: white;
+    text-align: left;
+    padding: 10px
+}
+table{
+    border:solid #DDE1E5 1px;
+    width: 100%
+}
+select{
+    width: 100%
+}
+button{
+    color: white;
+    border: none;
+    padding: 7px
+}

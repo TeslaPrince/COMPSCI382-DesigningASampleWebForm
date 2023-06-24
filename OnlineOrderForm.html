@@ -1,0 +1,113 @@
+ <!-- test at http://localhost/Server-Side%20Scripting/Designing%20a%20Sample%20Web%20Form/OnlineOrderForm.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widthm initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Digital Store</title>
+    </head>
+    <body class="container">
+        <h1>Digital Store</h1>
+        <form>
+            <h2>Onine Order Form</h2>
+            <table>
+                <tr>
+                    <th>Configure Your System</th>
+                </tr>
+                <tr>
+                    <td><strong>Operating System:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="os">
+                            <option value="0">--select an operating system--</option>
+                            <option value="1">Microsoft Windows</option>
+                            <option value="2">Apple MacOS</option>
+                            <option value="3">Linux</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Processor:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="pr">
+                            <option value="0">--select a processor--</option>
+                            <option value="1">Intel Core i9</option>
+                            <option value="2">Intel Core i7</option>
+                            <option value="3">Intel Core i5</option>
+                            <option value="4">Intel Core i3</option>
+                            <option value="5">AMD Ryzen 9</option>
+                            <option value="6">AMD Ryzen 7</option>
+                            <option value="7">AMD Ryzen 5</option>
+                            <option value="8">AMD Ryzen 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Memory:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="mem" value="8">8 GB
+                        <input type="radio" name="mem" value="16">16 GB
+                        <input type="radio" name="mem" value="32">32 GB
+                        <input type="radio" name="mem" value="64">64 GB
+                        <input type="radio" name="mem" value="128">128 GB
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Accessories:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="acc1" value="1"/>Battery Backup
+                        <input type="checkbox" name="acc2" value="2"/>Webcam
+                        <input type="checkbox" name="acc3" value="3"/>Wireless Mouse
+                        <input type="checkbox" name="acc4" value="4"/>Headset
+                        <input type="checkbox" name="acc5" value="5"/>Presentation Clicker
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Contact Information</th>
+                </tr>
+                <tr>
+                    <td><strong>Name:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type='text' name='fullname' placeholder='Enter full name' style="width:99%"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Email Address:</strong></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type='text' name='email' placeholder='Enter email address' style="width:99%"/>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Special Instructions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea name='intstructions' rows="6" style="width:99%" placeholder="Enter any special instructions here"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <button type='Sale' style="background-color: deepskyblue;"><strong>Finalize Sale</strong></button>
+                <button type='Cancel' style="background-color: #DB3748;"><strong>Cancel</strong></button>
+            </p>
+        </form>
+    </body>
+</html>
